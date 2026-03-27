@@ -29,7 +29,7 @@ numpy: Used for numerical operations and handling NaN
 
 **2. Creating a DataFrame:** A sample dataset is created with missing values (np.nan).
 
-**3. Detecting Missing Values **
+**3. Detecting Missing Values**
 
 df1.isna(): Returns True where values are missing.
                         
@@ -81,7 +81,7 @@ Age → filled with mean
 
 Marks → filled with median
 
-**Step 4: **Fix Text Formatting
+**Step 4:** Fix Text Formatting
 
 df["Department"] = df["Department"].str.upper(): Converts all text to uppercase for consistency.
 
